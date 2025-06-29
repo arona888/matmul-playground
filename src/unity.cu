@@ -1,0 +1,8 @@
+#include "cublas_benchmark.cu"
+#include "kernel1.cu"
+#include "kernel2.cu"
+#include "kernel3.cu"
+#include "kernel4.cu"
+#include "kernel5.cu"
+#include "kernel6.cu"
+#include "main.cu"
