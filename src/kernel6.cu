@@ -5,7 +5,7 @@
 #include "structs_n_stuff.cuh"
 
 // double buffering
-
+#if 0
 template <unsigned int mma_tiles_per_warp_m, unsigned int mma_tiles_per_warp_k, unsigned int smem_stride>
 __device__ __forceinline__ void ldmatrix_a(
   const half* src,
@@ -235,7 +235,7 @@ __device__ __forceinline__ void ldmatrix_b(
   );
 
 }
-
+#endif
 
 template <unsigned int BM_dim,
 unsigned int BN_dim,
